@@ -1,0 +1,99 @@
+body
+{
+    background-color: #d5bdaf;
+}
+
+*{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container
+{
+    background-color: #D9D9D9;
+    width: 500px;
+    height: 500px;
+    box-shadow: 2px  2px 2px lightslategray;
+    border-radius: 15px;
+    opacity: .7;
+}
+
+.header
+{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inputs
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input
+{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 70%;
+    height: 50px;
+    font-size: larger;
+}
+
+.Sign-in-btn
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+button
+{
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    border: none;   
+    cursor: pointer;
+    box-shadow: 2px  2px 2px lightslategray;
+    font-size: larger;
+}
+
+button:hover
+{
+    background-color: #edede9;    
+}
+
+img
+{
+    width: 30px;
+    cursor: pointer;
+}
+
+p
+{
+    text-align: center;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    gap: 3vh;
+}
