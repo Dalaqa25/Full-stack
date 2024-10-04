@@ -54,13 +54,14 @@ input
     width: 70%;
     height: 50px;
     font-size: larger;
+    padding-left: 5px;
 }
 
 .Sign-in-btn
 {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 7vh;
 }
 
 button
@@ -96,4 +97,16 @@ p
     justify-content: center;
     margin-top: 3vh;
     gap: 3vh;
+}
+
+.Register-link
+{
+    display: flex;
+    justify-content: right;
+    margin-right: 11vh;
+}
+
+a
+{
+    font-style: italic;
 }
