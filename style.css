@@ -1,0 +1,52 @@
+body
+{
+    background-color: #002233;
+}
+
+
+.container-wrapper {
+    position: relative;
+    width: 250px; /* Set the width of the wrapper based on your needs */
+    height: 250px; /* Set the height of the wrapper based on your needs */
+  }
+  
+  .back-box {
+    position: absolute;
+    width: 250px; /* Adjust to fit the desired size */
+    height: 250px;
+    background: #005a86; /* Gray background for the back box */
+    border-radius: 10px;
+    border: 2px solid #999; /* Lighter border color */
+    top: 10px; /* Offset the back box to create the shadow effect */
+    left: 10px; /* Offset the back box */
+    z-index: 1; /* Ensure it's behind the front box */
+    filter: blur(0.5px);
+    animation: glow 3s infinite ease-in-out;
+    z-index: 2;
+  }
+  
+  .front-box {
+    position: absolute;
+    width: 250px; /* Adjust to match the size of the back box */
+    height: 250px;
+    background: #00aaff; /* Blue background for the front box */
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    z-index: 2; /* Ensure it's in front of the back box */
+  }
+  
+  @keyframes glow {
+    0% {
+      border-color: rgba(0, 0, 0, 0.5); 
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      border-color: #FCA311;
+      box-shadow: 0 0 30px #FCA311;
+    }
+    100% {
+      border-color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+  }
