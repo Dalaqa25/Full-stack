@@ -2,19 +2,33 @@ body
 {
     background-color: #ffff;
     font-family: sans-serif;
-    padding: 5px 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    padding: 20px 150px 0px 150px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 button
 {
     border-radius: 10px;
     cursor: pointer;
-    padding: 10px;
 }
 .drop-down
 {
     width: 10px;
 }
+
+.icons
+{
+    width: 22px;
+}
+
 
 .button-header-1
 {
@@ -36,6 +50,70 @@ button
 {
     display: flex;
     flex-direction: row;
-    gap: 20px;
     align-items: center;
+    gap: 10px;
+}
+
+.section-2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+}
+
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #fff2c3; /* Adjust the background color */
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.add-button:hover
+{
+    background-color: #ffefb2;
+}
+
+.add-button img {
+    margin-right: 8px; 
+}
+
+.add-button span {
+    vertical-align: middle;
+}
+
+.Sign-In
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid #e5e5e5;
+    background-color: #ffff;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.Sign-In img {
+    margin-right: 8px; 
+}
+
+.Sign-In span {
+    vertical-align: middle;
+}
+
+a
+{
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
