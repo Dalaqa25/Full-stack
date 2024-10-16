@@ -27,8 +27,8 @@ button
 .icons
 {
     width: 22px;
+    border: none;
 }
-
 
 .button-header-1
 {
@@ -51,7 +51,7 @@ button
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 19px;
 }
 
 .section-2
@@ -98,6 +98,11 @@ button
     font-size: 16px;
 }
 
+.Sign-In:hover
+{
+    background-color: #f6f6f6;
+}
+
 .Sign-In img {
     margin-right: 8px; 
 }
@@ -116,4 +121,25 @@ a
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.sub-header
+{   
+    padding: 0px 150px 0px 150px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-header-paragraph
+{
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.sub-header-paragraph:hover
+{
+    cursor: pointer;
+    color: #fec900;
 }
