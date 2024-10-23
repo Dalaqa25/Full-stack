@@ -1,0 +1,95 @@
+body
+{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-2
+{
+    padding-top: 30px;
+    padding-right: 150px;
+    border: 2px solid black;
+}
+
+.Sign-in-sec
+{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    border: 1px solid green;
+}
+
+.Sign-in-sec-btn
+{
+    width: 120px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sing-in
+{
+    background-color: #ffff;
+    border: 2px solid #46176f;
+    color: #46176f;
+}
+
+.sing-in:hover
+{
+    box-shadow: 0.5px 0.5px 5px;
+}
+
+.join
+{
+    border: none;
+    background-color: #46176f;
+    color: #ffff;
+}
+
+.join:hover
+{
+    box-shadow: 0.5px 0.5px 5px #4a4848;
+}
+
+h2,h1
+{
+    padding: 0;
+    margin: 0;
+}
+
+h1
+{
+    font-size: 50px;
+}
+
+span
+{
+    
+    font-size: 70px;
+    color: #482063;
+}
+
+.box
+{
+    width: 240px;
+    height: auto;
+    background-color: green;
+}
+
+.text-sec
+{
+    border: 2px solid black;
+    padding-top: 50px;
+    display: flex;
+}
