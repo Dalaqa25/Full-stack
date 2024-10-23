@@ -16,7 +16,6 @@ body
 {
     padding-top: 30px;
     padding-right: 150px;
-    border: 2px solid black;
 }
 
 .Sign-in-sec
@@ -24,7 +23,6 @@ body
     display: flex;
     justify-content: end;
     gap: 10px;
-    border: 1px solid green;
 }
 
 .Sign-in-sec-btn
@@ -66,6 +64,7 @@ h2,h1
 {
     padding: 0;
     margin: 0;
+
 }
 
 h1
@@ -80,16 +79,80 @@ span
     color: #482063;
 }
 
+.sp2
+{
+    color:#0bc584;
+}
+
 .box
 {
     width: 240px;
     height: auto;
-    background-color: green;
 }
 
 .text-sec
 {
-    border: 2px solid black;
     padding-top: 50px;
     display: flex;
+}
+
+p
+{
+    color: #b9b9bb;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+h3
+{
+    color: black;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 0; 
+    margin: 0;
+}
+
+form
+{
+    margin-top: 10px;
+    display: flex;
+}
+
+input
+{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    box-shadow: 0px 1.5px 5px #6f6f6f;
+    font-size: 15px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: italic;
+    color: #b9b9bb;
+}
+
+.submit-btn
+{
+    width: 150px;
+    padding: 20px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    font-weight: bolder;
+    color: #ffff;
+    background-color: #0bc584;
+    box-shadow: 0px 1.5px 5px #6f6f6f;
+    cursor: pointer;
+}
+
+.submit-btn:hover
+{
+    background-color: #0cab74;
 }
