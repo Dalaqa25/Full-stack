@@ -156,3 +156,9 @@ input
 {
     background-color: #0cab74;
 }
+
+.body
+{
+    padding: 150px 150px 0 150px;
+    gap: 20px;
+}
