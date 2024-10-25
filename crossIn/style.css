@@ -1,164 +1,163 @@
-body
-{
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
 }
 
-.header
-{
-    display: flex;
-    justify-content: space-between;
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
-.sec-2
-{
-    padding-top: 30px;
-    padding-right: 150px;
+.sec-2 {
+  padding-top: 30px;
+  padding-right: 150px;
 }
 
-.Sign-in-sec
-{
-    display: flex;
-    justify-content: end;
-    gap: 10px;
+.Sign-in-sec {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
 }
 
-.Sign-in-sec-btn
-{
-    width: 120px;
-    padding: 20px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
+.Sign-in-sec-btn {
+  width: 120px;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.sing-in
-{
-    background-color: #ffff;
-    border: 2px solid #46176f;
-    color: #46176f;
+.sing-in {
+  background-color: #ffff;
+  border: 2px solid #46176f;
+  color: #46176f;
 }
 
-.sing-in:hover
-{
-    box-shadow: 0.5px 0.5px 5px;
+.sing-in:hover {
+  box-shadow: 0.5px 0.5px 5px;
 }
 
-.join
-{
-    border: none;
-    background-color: #46176f;
-    color: #ffff;
+.join {
+  border: none;
+  background-color: #46176f;
+  color: #ffff;
 }
 
-.join:hover
-{
-    box-shadow: 0.5px 0.5px 5px #4a4848;
+.join:hover {
+  box-shadow: 0.5px 0.5px 5px #4a4848;
 }
 
-h2,h1
-{
-    padding: 0;
-    margin: 0;
-
+h2,
+h1 {
+  padding: 0;
+  margin: 0;
 }
 
-h1
-{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
 
-span
-{
-    
-    font-size: 70px;
-    color: #482063;
+span {
+  font-size: 70px;
+  color: #482063;
 }
 
-.sp2
-{
-    color:#0bc584;
+.sp2 {
+  color: #0bc584;
 }
 
-.box
-{
-    width: 240px;
-    height: auto;
+.box {
+  width: 240px;
+  height: auto;
 }
 
-.text-sec
-{
-    padding-top: 50px;
-    display: flex;
+.text-sec {
+  padding-top: 50px;
+  display: flex;
 }
 
-p
-{
-    color: #b9b9bb;
-    font-family: "Playwrite GB S", cursive;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: italic;
-    padding: 0;
-    margin: 0;
+p {
+  color: #b9b9bb;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
 }
 
-h3
-{
-    color: black;
-    font-family: "Playwrite GB S", cursive;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: italic;
-    padding: 0; 
-    margin: 0;
+h3 {
+  color: black;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
 }
 
-form
-{
-    margin-top: 10px;
-    display: flex;
+form {
+  margin-top: 10px;
+  display: flex;
 }
 
-input
-{
-    width: 100%;
-    padding: 15px;
-    border-radius: 5px 0px 0px 5px;
-    border: none;
-    box-shadow: 0px 1.5px 5px #6f6f6f;
-    font-size: 15px;
-    font-family: "Playwrite GB S", cursive;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: italic;
-    color: #b9b9bb;
+input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  box-shadow: 0px 1.5px 5px #6f6f6f;
+  font-size: 15px;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: italic;
+  color: #b9b9bb;
 }
 
-.submit-btn
-{
-    width: 150px;
-    padding: 20px;
-    border-radius: 0px 5px 5px 0px;
-    border: none;
-    font-weight: bolder;
-    color: #ffff;
-    background-color: #0bc584;
-    box-shadow: 0px 1.5px 5px #6f6f6f;
-    cursor: pointer;
+.submit-btn {
+  width: 150px;
+  padding: 20px;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  font-weight: bolder;
+  color: #ffff;
+  background-color: #0bc584;
+  box-shadow: 0px 1.5px 5px #6f6f6f;
+  cursor: pointer;
 }
 
-.submit-btn:hover
-{
-    background-color: #0cab74;
+.submit-btn:hover {
+  background-color: #0cab74;
 }
 
-.body
-{
-    padding: 150px 150px 0 150px;
-    gap: 20px;
+.body {
+  padding: 150px 150px 0 150px;
+  gap: 20px;
+}
+
+.work-bag {
+  display: block;
+}
+
+.first-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+}
+
+.first-block img {
+  width: 10%;
+}
+
+strong {
+  font-size: 28px;
+}
+
+.row {
+  padding: 50px 0px;
 }
