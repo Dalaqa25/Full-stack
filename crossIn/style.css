@@ -2,12 +2,31 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   margin: 0;
-  padding: 0;
+  overflow-x: hidden;
+  
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header:hover
+{
+  transform: scale(1.05);
 }
 
 .sec-2 {
@@ -29,6 +48,7 @@ body {
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .sing-in {
@@ -39,6 +59,7 @@ body {
 
 .sing-in:hover {
   box-shadow: 0.5px 0.5px 5px;
+  transform: scale(1.05);
 }
 
 .join {
@@ -49,6 +70,7 @@ body {
 
 .join:hover {
   box-shadow: 0.5px 0.5px 5px #4a4848;
+  transform: scale(1.05);
 }
 
 h2,
@@ -138,6 +160,12 @@ input {
 .body {
   padding: 150px 150px 0 150px;
   gap: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.body:hover
+{
+  transform: scale(1.05);
 }
 
 .work-bag {
@@ -164,7 +192,13 @@ strong {
 
 .sub-body-section
 {
-    padding: 150px;
+  padding: 150px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.sub-body-section:hover
+{
+  transform: scale(1.05);
 }
 
 .sub-body
@@ -176,7 +210,7 @@ strong {
 
 .footer
 {
-    background-color: #f2f4ff;
+  background-color: #f2f4ff;
 }
 
 .footer-body
@@ -234,9 +268,5 @@ h2
 
 a
 {
-    border: none;
-}
-a::after::before:hover
-{
-    border: none;
+  text-decoration: none;
 }
