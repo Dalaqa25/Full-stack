@@ -1,99 +1,16 @@
-body
-{
-    margin: 0;
-    padding: 0;
-}
-
-.sub-body-section
-{
-    padding: 150px;
-}
-
-.sub-body
-{
+/* Center the entire container */
+body {
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
-}
-h3
-{
-    font-weight:1000;
-}
-h4
-{
-    margin: 0;
-    padding: 0;
-}
-
-p
-{
-    margin: 0;
-    padding: 0;
-}
-
-.footer
-{
-    background-color: #f2f4ff;
-}
-
-.footer-body
-{
-    padding-top: 20px;
-    text-align: center;
-    max-width: 600px;   
-    margin: 0 auto;   
-}
-.footer-body h1
-{
-    font-size: 2.5rem; 
-    color: #333;   
-    margin-bottom: 10px; 
-}
-
-.footer-body p
-{
-    font-size: 1rem;    
-    line-height: 1.6;   
-    color: #666;         
-}
-
-.footer-body h4
-{
-    font-weight: bolder;
-    margin: 0;
-}
-
-.svg-footer
-{
-    display: flex; /* Prevents SVGs from overflowing the main div */
-    justify-content: space-around; /* Align SVGs horizontally with space between */
-}
-
-.sub-footer
-{
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #491a73;
     align-items: center;
-}
-
-.sub-footer-p
-{
-    display: flex;
-    gap: 30px;
-}
-
-h2
-{
+    justify-content: center;
+    height: 100vh;
     margin: 0;
 }
 
-a
-{
-    border: none;
+.container {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
-a::after::before:hover
-{
-    border: none;
-}
+
