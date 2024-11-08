@@ -14,6 +14,14 @@ h1 p
     padding: 0;
 }
 
+.logo
+{
+    background-color: #00a7e1;
+    color: #ffff;
+    border-radius: 5px;
+    
+}
+
 .head
 {
     display: flex;
