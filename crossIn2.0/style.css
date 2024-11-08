@@ -1,0 +1,57 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300; 
+    font-style: normal;
+    overflow: hidden;
+}
+
+h1 p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 30px;
+}
+
+
+.h-s-2
+{
+    border: 1px solid black;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.h-s-3
+{
+    display: flex;
+    justify-content: center;
+}
+
+.body
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.b-s-1
+{
+    display: flex;
+    flex-direction: column;
+}
