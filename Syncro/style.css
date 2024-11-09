@@ -15,12 +15,18 @@ a
     text-decoration: none;
 }
 
+i
+{
+    font-size: 15px;
+    width: 25px;
+}
+
 /* main header config */
 .header
 {
     display: flex;
     justify-content: space-between;
-    padding: 8px 20px 8px 20px;
+    padding: 3px 20px 3px 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,13 +37,33 @@ a
     justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
+}
+
+/* affect for header p */
+.h-sec-1 p
+{
+    padding: 10px 20px; 
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    transition: 0.3s;
+}
+
+/* hover affect for header p */
+.h-sec-1 p:hover
+{
+    background-color: #f2f3f5; 
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* second secion of header */
 .h-sec-2
 {
-    gap:15px;
+    gap:25px;
 }
 
 .h-sec-2 .btn
