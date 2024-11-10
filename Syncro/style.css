@@ -2,6 +2,12 @@ body
 {
     padding: 0;
     margin: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 h1, h2
@@ -128,3 +134,23 @@ i
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+#searchInput
+{
+    display: none;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: width 0.3s ease;
+    width: 150px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#searchInput:focus
+{
+    outline: none;
+    border-color: #ccc;
+}
+
