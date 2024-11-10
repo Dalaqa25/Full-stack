@@ -105,12 +105,13 @@ i
 #Signup-btn
 {
     border: none;
-    background:linear-gradient(45deg, #6D1EB7, #17BEE3);
+    background:linear-gradient(45deg, #17BEE3, #6D1EB7);
+    background-size: 200% 200%;
+    transition: background-position 0.3s ease;
 }
-
 #Signup-btn:hover
 {
-    background:linear-gradient(45deg, #17BEE3,#6D1EB7);
+    background-position: 100% 0;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
