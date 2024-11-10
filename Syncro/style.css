@@ -99,12 +99,12 @@ i
 #Signup-btn
 {
     border: none;
-    background-color: #17BEE3;
+    background:linear-gradient(45deg, #6D1EB7, #17BEE3);
 }
 
 #Signup-btn:hover
 {
-    background-color: #6D1EB7;
+    background:linear-gradient(45deg, #17BEE3,#6D1EB7);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
