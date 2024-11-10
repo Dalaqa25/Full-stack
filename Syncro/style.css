@@ -65,21 +65,60 @@ i
 {
     gap:20px;
 }
+
 /* sign up/in buttons*/
 .h-sec-2 .btn
 {
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 10px;
-    background-color: #6a0dad;
-    color: white;
-    border: none;
     cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.3s;
 }
 
+/* Login button */
+#Login-btn
+{
+    background-color: transparent;
+    border: 1.5px solid #ced2d7;
+}
+
+#Login-btn:hover
+{
+    background-color: #f2f3f5;
+}
+
+.a-login
+{
+    color: #6D1EB7;
+}
+
+/* Sing up button */
+#Signup-btn
+{
+    border: none;
+    background-color: #17BEE3;
+}
+
+#Signup-btn:hover
+{
+    background-color: #6D1EB7;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.a-signUp
+{
+    color: #ffff;
+    font-weight: 700;
+}
+
+/* header section 2 icons */
 .h-sec-2-i
 {
     font-size: 17px;
-    padding: 13px 10px; 
+    padding: 12px 9px; 
     transition: 0.3s;
 }
 
