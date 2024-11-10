@@ -63,9 +63,9 @@ i
 /* second secion of header */
 .h-sec-2
 {
-    gap:25px;
+    gap:20px;
 }
-
+/* sign up/in buttons*/
 .h-sec-2 .btn
 {
     padding: 15px 20px;
@@ -73,5 +73,19 @@ i
     background-color: #6a0dad;
     color: white;
     border: none;
+    cursor: pointer;
+}
+
+.h-sec-2-i
+{
+    font-size: 17px;
+    padding: 13px 10px; 
+    transition: 0.3s;
+}
+
+.h-sec-2-i:hover
+{
+    background-color: #f2f3f5; 
+    border-radius: 5px;
     cursor: pointer;
 }
