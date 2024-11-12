@@ -155,3 +155,66 @@ i
     border-color: #ccc;
 }
 
+#threeDot
+{
+    display: none;
+    cursor: pointer;
+}
+
+#menu
+{
+    display: none;
+    padding: 10px 10px;
+}
+
+#menu:hover
+{
+    background-color: #f2f3f5; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media  (max-width:1102px)
+{
+    #threeDot
+    {
+        display: block;
+    }
+    #Learn-i
+    {
+        display: none;
+    }
+}
+
+@media  (max-width:1034px)
+{
+    #plans-and-pricing
+    {
+        display: none;
+    }
+}
+
+@media  (max-width:895px)
+{
+    #plans-and-pricing, #Business, #threeDot, #Learn-i
+    {
+        display: none;
+    }
+    #menu
+    {
+        display: block;
+    }
+}
+
+@media (max-width:720px)
+{
+    #searchIcon
+    {
+        display: none;
+    }
+
+    .h-sec-2
+    {
+        gap: 10px;
+    }
+}
