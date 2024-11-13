@@ -204,6 +204,10 @@ i
     {
         display: block;
     }
+    .header
+    {
+        padding: 10px 5px;
+    }   
 }
 
 @media (max-width:720px)
@@ -216,5 +220,40 @@ i
     .h-sec-2
     {
         gap: 10px;
+    }
+    .header
+    {
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width:455px)
+{
+    #questionMark
+    {
+        display: none;
+    }
+    .header
+    {
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width: 499px)
+{
+    #Login-btn, #Signup-btn
+    {
+        padding: 5px 10;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .h-sec-1
+    {
+        gap: 10px;
+    }
+    .header
+    {
+        padding: 10px 5px;
     }
 }
