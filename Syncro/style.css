@@ -183,7 +183,7 @@ i
 {
     margin-top: 60px;
     text-align: center;
-    font-family: "Edu AU VIC WA NT Pre", serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
     display: flex;
     flex-direction: column;
@@ -243,38 +243,102 @@ i
 .body
 {
     margin-top: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
-    gap: 30px;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+    gap: 20px;
+}
+
+.body-img
+{
+    width: 400px;
+    transition: all 0.3s;
+}
+
+.img-container
+{
+    background:linear-gradient(45deg, #e87b15, #6c10bd);
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+}
+
+.img-container:hover
+{
+    scale: 1.01;
+}
+
+.body-img:hover
+{
+    scale: 1.05;
+}
+
+/* syb-body section */
+
+.sub-body h2
+{
+    margin-bottom: 45px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.memberships
+{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.memberships p
+{
+    font-family: "Quicksand", sans-serif;
 }
 
 .box
 {
-    
-    width: 280px;
-    height: 320px;
-    border-radius: 12px;
+    width: 300px;
+    padding: 0px 10px;
+    height: 290px;
+    border: 1px solid #cacbcc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
-#box-1
+.box h3 
 {
-    background-color: red;
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-#box-2
+
+.memberships-btn
 {
-    background-color: forestgreen;
+    padding: 10px 70px;
+    border:none;
+    border-radius: 8px;
+    background-color: #7731d8;
+    color: #ffff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
-#box-3
+.memberships-btn:hover
 {
-    background-color: #6D1EB7;
-}
-
-#box-4
-{
-    background-color: #18d8ff;
+    background-color: #5c25a9;
 }
 
 @media  (max-width:1102px)
