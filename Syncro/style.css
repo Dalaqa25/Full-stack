@@ -24,6 +24,7 @@ h1, h2
 a
 {
     text-decoration: none;
+    transition: all 0.3s;
 }
 
 i
@@ -368,6 +369,35 @@ i
     padding: 0px 3px;
     border-radius: 50px;
     background-color: #ffff;
+}
+
+.footer
+{
+    margin-top: 50px;
+    background-color: #7731d8;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    font-size: 20px;
+}
+
+.footer a
+{
+    color: #ffff;
+    font-family: "Quicksand", sans-serif;
+}
+
+.footer p:hover
+{
+    border: 1px solid #9950ff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.footer p
+{
+    padding:8px;
 }
 
 @media (max-width:1300px)
