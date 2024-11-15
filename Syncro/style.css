@@ -317,7 +317,7 @@ i
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .box h3 
@@ -529,11 +529,17 @@ i
     }
     .box
     {
-        width: 230px;
+        width: 280px;
     }
     .memberships-btn
     {
         padding: 7px 30px;
+    }
+    .memberships
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
