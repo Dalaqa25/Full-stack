@@ -1,30 +1,13 @@
-body
-{
-  overflow: hidden;
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  transition: width 0.5s ease, height 0.5s ease; /* Define the transition */
 }
 
-.main
-{
-  display: flex;
-  justify-content: center;
-  gap: 20px ;
-
-}
-
-.div1,.div2,.div3,.div4
-{
-  width: 300px;
-  height: 300px;
-  border-radius: 8px;
-  background-color: brown;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-img
-{
-  overflow: hidden;
-  width: 100%;
+@media screen and (min-width: 600px) {
+  div {
+    width: 200px; /* New width when the screen size changes */
+    height: 150px; /* New height */
+  }
 }
