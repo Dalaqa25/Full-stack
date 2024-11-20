@@ -1,13 +1,9 @@
-div {
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
-  transition: width 0.5s ease, height 0.5s ease; /* Define the transition */
-}
-
-@media screen and (min-width: 600px) {
-  div {
-    width: 200px; /* New width when the screen size changes */
-    height: 150px; /* New height */
-  }
+body
+{
+  margin: 0;
+  padding: 0;
+  background-image: url("1.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center; /
 }
