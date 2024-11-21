@@ -8,6 +8,7 @@ body
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
+
 }
 
 html
@@ -41,6 +42,7 @@ i
     padding: 3px 20px 3px 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.5s ease;
+    overflow: hidden;
 }
 
 /* first secion of header */
@@ -673,15 +675,11 @@ i
     }
     #questionMark
     {
-        font-size: 8px;   
+        font-size: 12px;   
     }
     .h-sec-2 .btn
     {
-        padding: 7px 8px;
-        font-size: 8px;
-    }
-    #menu
-    {
+        padding: 10px 10px;
         font-size: 10px;
     }
     .slogan
@@ -692,7 +690,6 @@ i
     {
         font-size: 13px;
     }
-
     /* body secntion */
     .body
     {
@@ -703,7 +700,7 @@ i
     }
     .body-img
     {
-        width: 105px;
+        width: 130px;
         padding: 0;
     }
     .sub-body h2
@@ -731,55 +728,50 @@ i
     {
         font-size: 15px;
     }
-    
-    /* content */
-    .content-1
+
+}
+
+@media (max-width:470px)
+{
+    .h-sec-1 h2
     {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 0px;
+        font-size: 20px;
+    }
+    .h-sec-2 .btn
+    {
+        padding: 7px;
+        font-size: 9px;
+        border-radius: 5px;   
+    }
+    .h-sec-2
+    {
+        gap: 10px;
+    }
+    #start-btn
+    {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    .body-img
+    {
+        width: 115px;
+    }
+    .img-container
+    {
+        box-shadow: none;
+    }
+    .content-container
+    {
+        display: none;
+    }
+    .footer a
+    {
+        font-size: 15px;
+        padding: 0px;
         margin: 0;
-        padding: 0;
     }
-    .content-1-sec-1 img
+    .slogan
     {
-        display: none;
-    }
-    .content-h2
-    {
-        margin-top: 10pxpx;
-        padding: 0;
-    }
-
-    .content-img-container
-    {
-        width: 360px;
-    }
-    .content-container button
-    {
-        width: 100%;
-    }
-    .content-2
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 0px;
-        margin-top: 10px;
-    }
-
-    .content-p
-    {
-        display: none;
-    }
-
-    .content-2-sec-2 img
-    {
-        display: none;
+        font-size: 20px;
     }
 }
