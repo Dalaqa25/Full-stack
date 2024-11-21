@@ -20,3 +20,11 @@ document.addEventListener("click", function (event) {
         searchInput.style.display = "none";
     }
 });
+
+//Sing in dialog box
+const signInBtn = document.getElementById("Login-btn");
+const diallog = document.getElementById("diallog");
+
+document.addEventListener("click", () => {
+    diallog.showModal();
+})

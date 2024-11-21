@@ -6,6 +6,7 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./dialog.css">
 
     <!-- Tittle -->
     <title>Syncro - Home page</title>
@@ -35,6 +36,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- dialog box -->
+     <dialog id="diallog">
+        <div class="singin-content">
+            <div class="signin-section-1">
+                <h2>Log in or sign up in seconds</h2>
+                <p style="font-weight: 400;">Use your email or another service to continue with Canva (it’s free)!</p>
+                <div class="sign-with">
+                    <img src="./SVG/google-icon-logo-svgrepo-com.svg" alt="">
+                    Continue with Google
+                </div>
+                <div class="sign-with">
+                    <img src="./SVG/facebook-3-logo-svgrepo-com.svg" alt="">
+                    Continue with Facebook
+                </div>
+                <div class="sign-with">
+                    <img src="./SVG/linkedin-linked-in-svgrepo-com.svg" alt="">
+                    Continue with LinkedIn
+                </div>
+                <p style="font-weight: 400; font-size: small;">By continuing, you agree to Syncro’s <a href="">Terms of Use.</a> Read our Privacy Policy.</p>
+            </div>
+            <div class="signin-section-2">
+                <img src="./SVG/Sign in-pana.svg" alt="">
+            </div>
+        </div>
+     </dialog>
     
     <!-- header top bar -->
     <div class="header">
@@ -59,7 +85,7 @@
             <!-- question button -->
             <i id="questionMark" class="fa-solid fa-question h-sec-2-i"></i>
             <!-- Login button -->
-            <button id="Login-btn" class="btn"><a class="a-login" href="">Log in</a></button>
+            <button id="Login-btn" class="btn">Log in</button>
             <!-- Sign up button -->
             <button id="Signup-btn" class="btn"><a class="a-signUp" href="">Sign up</a></button>
         </div>

@@ -1,0 +1,90 @@
+body
+{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+h2
+{
+    margin: 0;
+    padding: 0;
+}
+
+p
+{
+    margin: 0;
+    padding: 0;
+}
+
+dialog
+{
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  width: 900px;
+  height: 600px;
+}
+
+.singin-content
+{
+    display: flex;
+}
+
+.signin-section-1
+{
+    padding: 13px 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.sign-with
+{
+    width: 100%;
+    border: 1px solid #cdd1d6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    transform: all 0.3sec;
+    transition: all 0.3sec;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+a
+{text-decoration: underline;}
+
+.sign-with img
+{
+    
+    width: 20px;
+    height: auto;
+}
+
+.sign-with:hover
+{
+    background-color: #f2f3f5;
+}
+
+.signin-section-2
+{
+    background:linear-gradient(45deg, #17BEE3, #6D1EB7);
+}
+
+img
+{
+  width: 450px;
+  height: 596px;
+  border-radius: 8px;
+}
+
