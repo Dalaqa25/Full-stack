@@ -581,7 +581,14 @@ dialog
 /* lg */
 @media (max-width:1024px)
 {
-
+    dialog
+    {
+        width: 400px;
+    }
+    .signin-section-2
+    {
+        display: none;
+    }
     /* tab bar */
     .logo
     {

@@ -33,9 +33,3 @@ signInBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
     dialog.close();
 })
-
-window.addEventListener('resize', () => {
-    if (!dialog.hasAttribute('open')) {
-      dialog.style.display = 'none'; 
-    }
-});
