@@ -61,7 +61,7 @@
                 </div>
                 <p>By continuing, you agree to Syncro’s <a href="">Terms of Use.</a> Read our Privacy Policy.</p>
                 <p>Or</p>
-                <div class="sign-with">
+                <div class="sign-with" id="email-btn">
                     <img src="./SVG/mail-alt-svgrepo-com.svg" alt="">
                     Continue with Email
                 </div>
@@ -71,7 +71,17 @@
             </div>
         <div>
      </dialog>
-    
+
+    <!-- Sing in via email dialog box -->
+     <dialog class="email-dialog" id="email-dialog">
+        <form class="email-filed" action="">
+            <i id="go-back" class="fa-solid fa-arrow-left"></i>
+            <h1 class="colorful-text">Let's start</h1>
+            <input type="email" placeholder="your email goes here" required>
+            <input type="password" placeholder="your password goes here" required>
+            <button type="submit">Sign In!</button>
+        </form>
+     </dialog>
     <!-- header top bar -->
     <div class="header">
         <!-- header section 1 -->
@@ -80,7 +90,7 @@
             <h2 class="colorful-text logo">Syncro</h2>
             <p id="Business">Business<i class="fa-solid fa-caret-down"></i></p>
             <p id="plans-and-pricing">Plans and pricing<i class="fa-solid fa-caret-down"></i></p>
-            <p id="Learn-i">Learn<i class="fa-solid fa-caret-down"></i>  </p>
+            <p id="Learn-i">Learn<i class="fa-solid fa-caret-down"></i> </p>
             
             <i id="threeDot" class="fa-solid fa-ellipsis p"></i>
         </div>

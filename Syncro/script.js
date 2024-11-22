@@ -33,3 +33,18 @@ signInBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
     dialog.close();
 })
+
+//Sing in via email
+const emailBtn = document.getElementById("email-btn");
+const emailDialog = document.getElementById("email-dialog");
+const goBackBtn = document.getElementById("go-back");
+
+emailBtn.addEventListener("click", () => {
+    dialog.close();
+    emailDialog.showModal();
+})
+
+goBackBtn.addEventListener("click", () => {
+    emailDialog.close();
+    dialog.showModal();
+})
