@@ -6,7 +6,6 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./dialog.css">
 
     <!-- Tittle -->
     <title>Syncro - Home page</title>
@@ -34,14 +33,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Parkinsans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- dialog box -->
      <dialog id="diallog">
-        <div class="singin-content">
+        <div class="diallog-inner-contnet">
+            <button id="close-button" class="close-button">X</button>
             <div class="signin-section-1">
                 <h2>Log in or sign up in seconds</h2>
-                <p style="font-weight: 400;">Use your email or another service to continue with Canva (it’s free)!</p>
+                <p>Use your email or another service to continue with Canva (it’s free)!</p>
                 <div class="sign-with">
                     <img src="./SVG/google-icon-logo-svgrepo-com.svg" alt="">
                     Continue with Google
@@ -54,12 +59,17 @@
                     <img src="./SVG/linkedin-linked-in-svgrepo-com.svg" alt="">
                     Continue with LinkedIn
                 </div>
-                <p style="font-weight: 400; font-size: small;">By continuing, you agree to Syncro’s <a href="">Terms of Use.</a> Read our Privacy Policy.</p>
+                <p>By continuing, you agree to Syncro’s <a href="">Terms of Use.</a> Read our Privacy Policy.</p>
+                <p>Or</p>
+                <div class="sign-with">
+                    <img src="./SVG/mail-alt-svgrepo-com.svg" alt="">
+                    Continue with Email
+                </div>
             </div>
             <div class="signin-section-2">
                 <img src="./SVG/Sign in-pana.svg" alt="">
             </div>
-        </div>
+        <div>
      </dialog>
     
     <!-- header top bar -->

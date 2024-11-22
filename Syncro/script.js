@@ -23,8 +23,19 @@ document.addEventListener("click", function (event) {
 
 //Sing in dialog box
 const signInBtn = document.getElementById("Login-btn");
-const diallog = document.getElementById("diallog");
+const dialog = document.getElementById("diallog");
+const closeBtn = document.getElementById("close-button");
 
-document.addEventListener("click", () => {
-    diallog.showModal();
+signInBtn.addEventListener("click", () => {
+    dialog.showModal(); 
 })
+
+closeBtn.addEventListener("click", () => {
+    dialog.close();
+})
+
+window.addEventListener('resize', () => {
+    if (!dialog.hasAttribute('open')) {
+      dialog.style.display = 'none'; 
+    }
+});
