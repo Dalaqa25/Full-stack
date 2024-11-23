@@ -48,3 +48,46 @@ goBackBtn.addEventListener("click", () => {
     emailDialog.close();
     dialog.showModal();
 })
+
+//top bar hovers
+//hoverable elements
+const business = document.getElementById("Business");
+const plansPricing = document.getElementById("plans-and-pricing");
+const LearnI = document.getElementById("Learn-i");
+
+//dialog elements
+const diallogHoverBusiness = document.getElementById("dialog1-business");
+const diallogHoverPlansAndBricing = document.getElementById("dialog2-PlansAndPricing");
+const diallogHoverLearn = document.getElementById("dialog3-Learn");
+
+//mouseover event
+document.addEventListener("mouseover", (event) => {
+    if (event.target === business)
+    {
+        diallogHoverBusiness.show();
+    }
+    else if (event.target === plansPricing)
+    {
+        diallogHoverPlansAndBricing.show();
+    }
+    else if (event.target === LearnI)
+    {
+        diallogHoverLearn.show();
+    }
+})
+
+//mouseout event
+document.addEventListener("mouseout", (event) => {
+    if (event.target === business)
+    {
+        diallogHoverBusiness.close();
+    }
+    else if (event.target === plansPricing)
+    {
+        diallogHoverPlansAndBricing.show();
+    }
+    else if (event.target === LearnI)
+    {
+        diallogHoverLearn.show();
+    }
+})

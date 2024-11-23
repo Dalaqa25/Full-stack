@@ -1,36 +1,43 @@
-img
-{
-  width: 450px;
-  border-radius: 8px;
+.main {
+  display: flex;
+  gap: 20px; /* Add spacing between hover buttons */
+  justify-content: center;
+  align-items: flex-start;
+  margin: 50px;
 }
 
-dialog
-{
-  border: none;
-  border-radius: 20px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 0;
+/* Parent container */
+.parent {
+  position: relative; /* Ensure hover dialog is positioned relative to this container */
 }
 
-.btn
-{
-  width: 100%;
-}
-
-.diallog
-{
+/* Hover button */
+.hoverPoint {
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
-.first-section
-{
-  background:linear-gradient(45deg, #17BEE3, #6D1EB7);
-  box-shadow: 7px 0px 10px rgba(102, 51, 153, 0.6);
+/* Dialog (hidden initially) */
+.dialog {
+  position: absolute; /* Position relative to the parent */
+  top: 110%; /* Place below the hover button */
+  left: 0;
+  z-index: 10;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  display: none; /* Initially hidden */
 }
 
-.second-section
-{
-  padding: 30px 50px;
+/* Dialog paragraphs */
+#dialog p {
+  margin: 0;
 }

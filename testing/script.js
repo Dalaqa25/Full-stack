@@ -1,11 +1,28 @@
-const openBtn = document.getElementById("open-dialog");
-const closeBtn = document.getElementById("colse-dialog");
-const dialogBox = document.getElementById("dialog"); 
+const dialog = document.getElementById("dialog");
+const box = document.getElementById("box");
+const box2 = document.getElementById("box2");
+const box3 = document.getElementById("box3");
+const box4 = document.getElementById("box4");
+const box5 = document.getElementById("box5");
+const dialo2 = document.getElementById("dialog2");
 
-openBtn.addEventListener('click', () => {
-    dialogBox.showModal();
+document.addEventListener("mouseover", (event) => {
+    if (event.target === box)
+    {
+        dialog.show()
+    }
+    else if (event.target === box2)
+    {
+        dialog2.show()
+    }
 })
-
-closeBtn.addEventListener('click', () => {
-    dialogBox.close();
+document.addEventListener("mouseout", (event) => {
+    if (event.target === box)
+    {
+        dialog.close();
+    }
+    if (event.target === box2)
+    {
+        dialog2.close();
+    }
 })

@@ -43,6 +43,7 @@ i
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.5s ease;
     overflow: hidden;
+    position: relative;
 }
 
 /* first secion of header */
@@ -53,6 +54,7 @@ i
     text-align: center;
     align-items: center;
     gap: 15px;
+    position: relative;
 }
 
 /* affect for header p */
@@ -104,6 +106,24 @@ i
 #Login-btn:hover
 {
     background-color: #f2f3f5;
+}
+
+/* top bar dialog hovers */
+.dropDown-dialog
+{
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.diallog-imgs
+{
+    width: 100px;
 }
 
 .a-login
@@ -572,7 +592,6 @@ dialog::backdrop
 .email-dialog
 {
     width: 400px;
-    height: 450px;
     background-color: #ffff;
     border: none;
     border-radius: 10px;
@@ -582,12 +601,12 @@ dialog::backdrop
 
 .email-filed
 {
-    padding: 20px 50px;
+    padding: 100px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     text-align: center;
     position: relative;
 }
@@ -595,15 +614,18 @@ dialog::backdrop
 .email-filed input
 {
     padding: 9px;
-    border: 1px solid #ced2d7;
+    border: 2px solid #ced2d7;
     border-radius: 8px;
     font-size: medium;
     width: 90%;
+    box-sizing: border-box;
+    outline: none;
+    transition: all 0.2s;
 }
 
 .email-filed input:focus
 {
-    border:1px solid #7731d8;
+    border: 2px solid #7731d8;
 }
 
 .email-filed button
@@ -632,6 +654,14 @@ dialog::backdrop
     top: 20px; /* Slightly outside the top border of the parent div */
     left: 20px; /* Slightly outside the left border of the parent div */    
     cursor: pointer;
+    border-radius: 8px;
+    padding: 8px;
+    transition: all 0.3s;
+}
+
+.email-filed i:hover
+{
+    background-color: #e5e5e5;
 }
 
 /* xl */
