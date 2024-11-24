@@ -24,7 +24,7 @@ document.addEventListener("click", function (event) {
 //Sing in dialog box
 const signInBtn = document.getElementById("Login-btn");
 const dialog = document.getElementById("diallog");
-const closeBtn = document.getElementById("close-button");
+const closeBtn = document.querySelector(".close-button");
 
 signInBtn.addEventListener("click", () => {
     dialog.showModal(); 
@@ -47,4 +47,24 @@ emailBtn.addEventListener("click", () => {
 goBackBtn.addEventListener("click", () => {
     emailDialog.close();
     dialog.showModal();
+})
+
+//Dialog for top bar
+    //clickable elemnts
+const syncroTeams = document.getElementById("syncro-Teams");
+const plansAndPricing = document.getElementById("plans-and-pricing");
+const learn = document.getElementById("Learn-i");
+const closeBtn1 = document.getElementById("close-button1");
+    //actuall dialogs
+const teamsDialog = document.getElementById("Teams");
+const pricingAndPlans = document.getElementById("pricingAndPlans");
+
+document.addEventListener("click", (event) => {
+    if (event.target === syncroTeams)
+    {
+        teamsDialog.showModal();
+    }if (event.target === closeBtn1)
+    {
+        teamsDialog.close();
+    }
 })

@@ -1,0 +1,63 @@
+.dialog-for-top-bar
+{
+    width: 85%;
+    height: auto;
+    border: 3px solid #fff;
+    border-radius: 14px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    outline: none;
+    background-color: #f8f9fa;
+    opacity: 90%;
+    padding: 8px 60px;
+    overflow: hidden;
+}
+
+.Teams-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px;
+}
+
+.Teams-container-sec-1
+{
+    display: flex;
+    gap: 4%;
+    justify-content: center;
+}
+
+.Teams-container-main-text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 40%;
+}
+
+.Teams-button
+{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 10px;
+    background-color: #7d3ed4;
+    font-weight: 700;
+    font-size: medium;
+    color: #fff;
+    width: 40%;
+    cursor: pointer;
+}
+
+.Teams-SVG
+{
+    width: 30%;
+    height: auto;
+    border: 3px solid #8553cc;
+    border-radius: 15px;
+    height: auto;  
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.bullents
+{
+    font-weight: 800;
+}

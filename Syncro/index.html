@@ -6,6 +6,7 @@
 
     <!-- css link -->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./dialgStyle.css">
 
     <!-- Tittle -->
     <title>Syncro - Home page</title>
@@ -43,7 +44,7 @@
     <!-- dialog box -->
      <dialog id="diallog">
         <div class="diallog-inner-contnet">
-            <button id="close-button" class="close-button">X</button>
+            <button id="close-button" class="close-button"></button>
             <div class="signin-section-1">
                 <h2>Log in or sign up in seconds</h2>
                 <p>Use your email or another service to continue with Canva (it’s free)!</p>
@@ -90,7 +91,7 @@
             <i id="menu" class="fa-solid fa-bars"></i>
             <h2 class="colorful-text logo">Syncro</h2>
 
-                <p id="Business">Freelancing<i class="fa-solid fa-square-arrow-up-right"></i></p>
+                <p id="syncro-Teams">Syncro Teams<i class="fa-solid fa-square-arrow-up-right"></i></p>
 
                 <p id="plans-and-pricing">Plans and pricing<i class="fa-solid fa-square-arrow-up-right"></i></p>
 
@@ -217,6 +218,31 @@
             </div>
         </div>
       </div>
+
+      <!-- dialog pop ups! -->
+        <!-- Syncro Teams -->
+      <dialog class="dialog-for-top-bar" id="Teams">
+        <button id="close-button1" class="close-button"></button>
+        <div class="Teams-container">
+            <div class="Teams-container-sec-1">
+                <div class="Teams-container-main-text">
+                    <h1>Syncro Teams</h1>
+                    <p>Unlock tools to grow your brand, cut costs, and engage more customers—with the all-in-one visual communication platform designed for work.</p>
+                    <button class="Teams-button">Start Free</button>
+                </div>
+                    <img src="./SVG'S for dialog/Collab-cuate.svg" class="Teams-SVG" alt="">
+            </div>
+            <div class="Teams-container-sec-2 Teams-container-sec-1" style="margin-top: 20px;">
+                    <img src="./SVG'S for dialog/Collab-pana.svg" class="Teams-SVG" alt="">
+                <div class="Teams-container-main-text">
+                    <h2>Transform teamwork</h2>
+                   <p><i class="fa-solid fa-check"></i><span class="bullents">Enhance productivity.</span> Empower teams to create engaging visual content together from anywhere.</p>
+                   <p><i class="fa-solid fa-check"></i><span class="bullents">Collaborate in real time.</span> Enjoy real-time, agile collaboration, tailored to your team’s working style</p>
+                   <p><i class="fa-solid fa-check"></i><span class="bullents">Stay organized.</span> Everyone can easily share and access files thanks to centralized asset management.</p>
+                </div>
+            </div>
+        </div>
+      </dialog>
 
       <div class="footer">
         <p><a href="https://github.com/Dalaqa25/Full-stack/tree/main/Syncro" target="_blank">Source Code</a></p>
