@@ -51,40 +51,22 @@ goBackBtn.addEventListener("click", () => {
 
 //Dialog for top bar
     //clickable elemnts
-const syncroTeams = document.getElementById("syncro-Teams");
+const BusinessBtn = document.getElementById("Business");
 const plansAndPricing = document.getElementById("plans-and-pricing");
 const learn = document.getElementById("Learn-i");
 const closeBtn1 = document.getElementById("close-button1");
 const closeBtn2 = document.getElementById("close-button2")
 const closeBtn3 = document.getElementById("close-button3");
     //actuall dialogs
-const teamsDialog = document.getElementById("Teams");
-const pricingDialog = document.getElementById("pricing-dialog");
-const learnDialog = document.getElementById("Learn-dialog");
+
+const dialogBox = document.getElementById("dialog-box");
 
 document.addEventListener("click", (event) => {
-    if (event.target === syncroTeams)
+    if(event.target === BusinessBtn)
     {
-        teamsDialog.showModal();
-    }
-    if (event.target === plansAndPricing)
-    {
-        pricingDialog.showModal();
-    }
-    if (event.target === learn)
-    {
-        learnDialog.showModal();
-    }
-    if (event.target === closeBtn1)
-    {
-        teamsDialog.close();
-    }
-    if (event.target === closeBtn2)
-    {
-        pricingDialog.close();
-    }
-    if (event.target === closeBtn3)
-    {
-        learnDialog.close();
-    }
+        dialogBox.style.display = "block"
+    }else if (event.target === closeBtn1)
+    {  dialogBox.style.display = "none" }
+
+    
 })

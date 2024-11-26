@@ -1,69 +1,98 @@
-.dialog-for-top-bar
+.dialog-box 
 {
-    width: 85%;
-    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%; 
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    z-index: 1000; 
+    display: none; 
     border: 3px solid #fff;
-    border-radius: 14px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
-    outline: none;
-    background-color: #f8f9fa;
-    opacity: 90%;
-    padding: 8px 60px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.dialog-box-inner-c
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dialog-box-inner-sec
+{
+    padding: 10px 0px;
+    width: 80%;
+    height: 50%;
+    gap: 3rem;  
+    display: flex;
+}
+
+.dialog-box-inner-sec-t
+{
+    width: 50%;
+    height: 100%;
     overflow: hidden;
 }
 
-.Teams-container
+.dialog-box-inner-sec-img
+{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px; 
+    background: url("./dialog/Collab-cuate.svg")
+    no-repeat center;
+    border: 1px solid #1b47f8;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dialog-box-inner-sec-img2
+{
+    background: url("./dialog/Collab-pana.svg")
+    no-repeat center;
+}
+
+.dialog-box-inner-sec2
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bold-txt
+{
+    font-weight: 900;
+}
+
+.dialog-box-inner-sec-t2
 {
     display: flex;
     flex-direction: column;
-    padding: 70px 0px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.Teams-container-sec-1
+.dialog-box-inner-sec-t2 button
 {
-    display: flex;
-    gap: 4%;
-    justify-content: center;
-}
-
-.Teams-container-main-text
-{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 40%;
-}
-
-.Teams-button
-{
-    border: none;
-    border-radius: 8px;
-    padding: 8px 10px;
-    background-color: #7d3ed4;
-    font-weight: 700;
-    font-size: medium;
-    color: #fff;
     width: 40%;
+    padding: 10px 0px;
+    border-radius: 8px;
+    border: none;
+    background-color: #7731d8;
+    color: #fff;
+    font-weight: 600;
+    font-size: medium;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
-.Teams-SVG
+.dialog-box-inner-sec-t2 button:hover
 {
-    width: 30%;
-    height: auto;
-    border: 3px solid #8553cc;
-    border-radius: 15px;
-    height: auto;  
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
-}
-
-.bullents
-{
-    font-weight: 800;
-}
-p
-{
-    padding: 0;
-    margin: 0;
+    background-color: #6f21dd;
+    scale: 1.01;
+    padding: 13px 0px;
 }

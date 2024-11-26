@@ -958,6 +958,11 @@ dialog::backdrop
         font-size: 15px;
     }
 
+    .img-container
+    {
+        box-shadow: none;
+    }
+
 }
 
 @media (max-width:470px)
