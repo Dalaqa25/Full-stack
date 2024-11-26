@@ -738,6 +738,12 @@ dialog::backdrop
         font-size: 13px;
     }
 
+    .img-container h2
+    {
+        padding: 20px 0px;
+        font-size: 15px;
+    }
+
     #searchIcon
     {
         font-size: 15px;
@@ -844,6 +850,12 @@ dialog::backdrop
     #sub-header-text
     {
         font-size: 15px;
+    }
+
+    .img-container h2
+    {
+        padding: 16px 5px;
+        font-size: 13px;
     }
 
     /* body secntion */
