@@ -3,7 +3,9 @@ const business = document.getElementById("business");
 const h1 = document.getElementById("h1");
 const dialogBoxes = document.getElementById("dialog-boxes");
 const SingUpFreelance = document.getElementById("Sing-Up-freelance");
-const closeBtn1 = document.getElementById("close-button1");
+const SingUpBusiness = document.getElementById("Sing-Up-Business");
+const reloadBtn1 = document.getElementById("reload-button1");
+const reloadBtn2 = document.getElementById("reload-button2")
 
 const mouseoverHandler = (event) => {
     if (event.target === freelace) {
@@ -32,17 +34,16 @@ document.addEventListener("mouseover", mouseoverHandler);
       business.style.cursor = "default"
       
       SingUpFreelance.style.display = "block";
-
-      // Disable the mouseover event
-      document.removeEventListener("mouseover", mouseoverHandler);
-      // Optionally update the h1 text to indicate the event is disabled
       h1.textContent = "Now you are a Freelancer";
+
+      document.removeEventListener("mouseover", mouseoverHandler);
     }
     if (event.target === business)
     {
         business.style.border = "5px solid #8043d6";
         business.style.width = "40%"
         business.style.cursor = "default"
+        SingUpBusiness.style.display = "block"
   
         freelace.style.width = "60%"
         freelace.style.background = "none"
@@ -57,11 +58,10 @@ document.addEventListener("mouseover", mouseoverHandler);
 
 document.addEventListener("click", clickHandler);
 
-closeBtn1.addEventListener("click", () => {
-    SingUpFreelance.style.display = "none";
-    business.style.width = "50%";
-    business.style.background = "url('./SingUpSVG/Businessman-pana\ \(1\).svg') no-repeat center";
-    freelace.style.border = "5px solid #fff"
-    h1.textContent = "What is you're Role?"
-    freelace.style.width = "50%";
+reloadBtn1.addEventListener("click", () => {
+  location.reload();
+})
+
+reloadBtn2.addEventListener("click", () => {
+  location.reload();
 })
