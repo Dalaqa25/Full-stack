@@ -13,6 +13,7 @@
     display: none; 
     border: 3px solid #fff;
     font-family: "Quicksand", sans-serif;
+    overflow: scroll;
 }
 
 .dialog-box-inner-c
@@ -96,3 +97,4 @@
     scale: 1.01;
     padding: 13px 0px;
 }
+
