@@ -12,6 +12,8 @@ body
     height: 100vh;
 }
 
+
+
 .main 
 {
     width: 100%;
@@ -40,7 +42,7 @@ body
 
 .box
 {
-    width: 50%;
+    width: 100%;
     height: 450px;
     border: 10px solid #fff;
     border-radius: 20px;
@@ -48,6 +50,7 @@ body
     background-color: #f8f9fa;
     cursor: pointer;
     transition: all 0.3s;
+    overflow-y: none;
 }
 
 .Sing-Up
@@ -68,15 +71,14 @@ form
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
-    gap: 15px;
+    gap: 20px;
 }
 
 input
 {
-    width: 60%;
+    width: 50%;
     outline: none;
-    border: 2px solid #8043d6;
+    border: 3px solid #8043d6;
     border-radius: 8px;
     font-size: 15px;
     padding: 10px;
@@ -93,6 +95,7 @@ input
     cursor: pointer;
     transition: background-position 0.3s ease;
     transition: font-size 0.3s ease;
+    width: 50%;
 }
 
 .Sing-Up-btn:hover
@@ -114,10 +117,9 @@ input
 
 .via-box
 {
-    margin-top: 20px;
-    
-    padding: 15px 50px;
-    border-radius: 8px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 50%;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -135,7 +137,7 @@ input
 
 .icons
 {
-    width: 1.5rem;
+    width: 25px;
 }
 
 .reload-button {
@@ -162,42 +164,13 @@ input
     background-color: #cd2323;
 }
 
-@media (max-width:1024px)
+@media (max-width:800px)
 {
-    #h1
-    {
-        font-size: 5vh;
-    }
-    .box
-    {
-        height: 300px;
-    }
-    form
-    {
-        gap: 5px;
-    }
-    input
-    {
-        width: 50%;
-    }
-    .via-box
-    {
-        display: none;
-    }
-}
-
-
-@media (max-width:768px)
-{
-    .box
-    {
-        height: 260px;
-    }
     .dialog-boxes
     {
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
+        align-items: center;
+        height: 550px;
     }
 }
