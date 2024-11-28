@@ -161,3 +161,25 @@ input
 {
     background-color: #cd2323;
 }
+
+@media (max-width:1024px)
+{
+    #h1
+    {
+        font-size: 5vh;
+    }
+    .box
+    {
+        height: 300px;
+    }
+}
+
+
+@media (max-width:768px)
+{
+    .box
+    {
+        height: 260px;
+    }
+    
+}
