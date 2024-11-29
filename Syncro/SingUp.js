@@ -6,6 +6,7 @@ const SingUpFreelance = document.getElementById("Sing-Up-freelance");
 const SingUpBusiness = document.getElementById("Sing-Up-Business");
 const reloadBtn1 = document.getElementById("reload-button1");
 const reloadBtn2 = document.getElementById("reload-button2");
+const mobileSignUp = document.getElementById("mobile-signUp");
 
 const mouseoverHandler = (event) => {
     if (event.target === freelace) {
@@ -19,20 +20,35 @@ const mouseoverHandler = (event) => {
 // Add the mouseover event listener
  document.addEventListener("mouseover", mouseoverHandler);
 
+//optimize for mobile
 const mediaQuery = window.matchMedia("(max-width:850px)");
-// optimize for mobile devices
 function handleMediaChange(e) {
   if (e.matches) 
   {
-    document.removeEventListener("click", clickHandler)
-  }
+    document.removeEventListener("click", clickHandler);
+
+    //
+    document.addEventListener("click", hideDialogBox);
+  } 
   else
   {
-    document.addEventListener("click", clickHandler)
+    document.addEventListener("click", clickHandler);
+
+    //
+    document.removeEventListener("click", hideDialogBox);
   }
 }
 handleMediaChange(mediaQuery);
 mediaQuery.addEventListener("change", handleMediaChange)
+
+function hideDialogBox(event)
+{
+  if (event.target === freelace || event.target === business)
+  {
+    dialogBoxes.style.display = "none"
+    mobileSignUp.style.display = "block"
+  }
+}
 
   // Add the click event listener
 function clickHandler(event) {

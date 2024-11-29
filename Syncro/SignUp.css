@@ -7,6 +7,7 @@ body
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     height: 100vh;
@@ -163,6 +164,43 @@ input
 {
     background-color: #cd2323;
 }
+
+.mobile-signUp
+{
+    margin-top: 20px;
+    display: none;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.mobile-signUp-innerContent
+{
+    width: 80%;
+}
+
+#form-2
+{
+    display: block;
+    display: flex;
+    margin-top: 40px;
+}
+
+#form-2 input
+{
+    max-width: 400px;
+    padding: 13px;
+    font-size: large;
+}
+
+#Sign-up-via-mobile
+{
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
 
 @media (max-width:850px) 
 {
