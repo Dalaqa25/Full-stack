@@ -22,7 +22,6 @@ body
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    display: none;
 }
 
 .main h1
@@ -165,13 +164,10 @@ input
     background-color: #cd2323;
 }
 
-@media (max-width:800px)
+@media (max-width:850px) 
 {
-    .dialog-boxes
+    .main
     {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 550px;
-    }
+        display: none;
+    } 
 }
