@@ -22,7 +22,8 @@ const mouseoverHandler = (event) => {
 const mediaQuery = window.matchMedia("(max-width:850px)");
 // optimize for mobile devices
 function handleMediaChange(e) {
-  if (e.matches) {
+  if (e.matches) 
+  {
     document.removeEventListener("click", clickHandler)
   }
   else
@@ -32,7 +33,6 @@ function handleMediaChange(e) {
 }
 handleMediaChange(mediaQuery);
 mediaQuery.addEventListener("change", handleMediaChange)
-
 
   // Add the click event listener
 function clickHandler(event) {

@@ -179,3 +179,23 @@ input
         display: none;
     }
 }
+
+@media (max-width:640px)
+{
+    .box
+    {
+        height: 200px;
+    } 
+    .main h1
+    {
+        font-size: 35px;
+    }
+}  
+
+@media (max-width:475px)
+{
+    .box
+    {
+        height: 150px;
+    } 
+}
