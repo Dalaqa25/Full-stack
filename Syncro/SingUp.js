@@ -5,7 +5,7 @@ const dialogBoxes = document.getElementById("dialog-boxes");
 const SingUpFreelance = document.getElementById("Sing-Up-freelance");
 const SingUpBusiness = document.getElementById("Sing-Up-Business");
 const reloadBtn1 = document.getElementById("reload-button1");
-const reloadBtn2 = document.getElementById("reload-button2")
+const reloadBtn2 = document.getElementById("reload-button2");
 
 const mouseoverHandler = (event) => {
     if (event.target === freelace) {
@@ -16,28 +16,43 @@ const mouseoverHandler = (event) => {
       h1.textContent = "What is your Role?";
     }
 };
+// Add the mouseover event listener
+ document.addEventListener("mouseover", mouseoverHandler);
 
-  // Add the mouseover event listener
-document.addEventListener("mouseover", mouseoverHandler);
+const mediaQuery = window.matchMedia("(max-width:850px)");
+// optimize for mobile devices
+function handleMediaChange(e) {
+  if (e.matches) {
+    document.removeEventListener("click", clickHandler)
+  }
+  else
+  {
+    document.addEventListener("click", clickHandler)
+  }
+}
+handleMediaChange(mediaQuery);
+mediaQuery.addEventListener("change", handleMediaChange)
+
 
   // Add the click event listener
-  function clickHandler(event) {
-    if (event.target === freelace) {
-      freelace.style.border = "5px solid #8043d6";
-      freelace.style.width = "40%"
-      freelace.style.cursor = "default"
+function clickHandler(event) {
+    if (event.target === freelace) 
+      {
+        freelace.style.border = "5px solid #8043d6";
+        freelace.style.width = "40%"
+        freelace.style.cursor = "default"
 
-      business.style.width = "60%"
-      business.style.background = "none"
-      business.style.border = "5px solid #fff"
-      dialogBoxes.style.gap = "1rem"
-      business.style.cursor = "default"
-      
-      SingUpFreelance.style.display = "block";
-      h1.textContent = "Now you are a Freelancer";
+        business.style.width = "60%"
+        business.style.background = "none"
+        business.style.border = "5px solid #fff"
+        dialogBoxes.style.gap = "1rem"
+        business.style.cursor = "default"
+        
+        SingUpFreelance.style.display = "block";
+        h1.textContent = "Now you are a Freelancer";
 
-      document.removeEventListener("mouseover", mouseoverHandler);
-    }
+        document.removeEventListener("mouseover", mouseoverHandler);
+      }
     if (event.target === business)
     {
         business.style.border = "5px solid #8043d6";
@@ -55,7 +70,6 @@ document.addEventListener("mouseover", mouseoverHandler);
         document.removeEventListener("mouseover", mouseoverHandler);
     }
 }
-
 document.addEventListener("click", clickHandler);
 
 reloadBtn1.addEventListener("click", () => {

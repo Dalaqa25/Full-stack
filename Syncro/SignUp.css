@@ -166,8 +166,16 @@ input
 
 @media (max-width:850px) 
 {
-    .main
+    form
     {
         display: none;
-    } 
+    }
+    .box
+    {
+        height: 320px;
+    }
+    .Sign-up-via
+    {
+        display: none;
+    }
 }
