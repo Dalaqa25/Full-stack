@@ -3,6 +3,7 @@ body
     margin: 0;
     padding: 0;
     background-color: #f5f3f4;
+    font-family: "Parkinsans", sans-serif;
 }
 
 .main
@@ -37,12 +38,21 @@ body
     text-align: center;
 }
 
+.nav-bar p
+{
+    padding: 0;
+    margin: 0;
+    color: #f5f3f4;
+    font-size: small;
+}
+
 .nav-bar img
 {
     width: 5vh;
     border-radius: 10px;
     padding: 1vh;
     transition: all 0.3s;
+    padding: 0px;
 }
 
 .nav-bar img:hover
@@ -50,11 +60,14 @@ body
     background-color: #6f1ee1;
     cursor: pointer;
     scale: 1.1;
+    padding: 3px;
 }
 
 #settingIcon:hover
 {
     animation: spin 3s linear infinite;
+    background-color: #6f1ee1;
+    border-radius: 50%;
 }
 
 @keyframes spin {
