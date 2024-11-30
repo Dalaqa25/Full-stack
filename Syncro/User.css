@@ -1,0 +1,33 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f3f4;
+}
+
+.main
+{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    height: 100vh;
+}
+
+.home
+{
+    width: 90%;
+    background-color: #ffff;
+    height: 97vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav-bar
+{
+    background-color: #8747e0;
+    min-width: 5rem;
+    height: 97vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
