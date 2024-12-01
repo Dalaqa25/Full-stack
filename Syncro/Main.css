@@ -91,3 +91,55 @@ body
 {
     padding: 10px;
 }
+
+/* main section */
+
+.accaountHeader
+{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: end;
+    background:linear-gradient(45deg, #17BEE3, #6D1EB7);
+    padding: 0px 30px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.accaountHeader p
+{
+    color: #ffff;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.accaountHeader img
+{
+    width: 2rem;
+}
+
+.welcomePage
+{
+    font-size: larger;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcomePage p
+{
+    color: #a5a2a4;
+    margin: 0;
+}
+
+.welcomePage img
+{
+    width: 40%;
+}
+
+.colorful-text
+{
+    background-image: linear-gradient(45deg, #ff7a18, #af2dff, #18d8ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
