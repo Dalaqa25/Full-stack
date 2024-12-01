@@ -4,6 +4,7 @@ body
     padding: 0;
     background-color: #f5f3f4;
     font-family: "Parkinsans", sans-serif;
+    overflow: hidden;
 }
 
 .main
@@ -124,6 +125,12 @@ body
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+}
+
+.welcomePage h1
+{
+    font-size: 4rem;
 }
 
 .welcomePage p
@@ -142,4 +149,11 @@ body
     background-image: linear-gradient(45deg, #ff7a18, #af2dff, #18d8ff);
     -webkit-background-clip: text;
     color: transparent;
+}
+
+.giorgi
+{
+    position: absolute;
+    width: 100%;
+    top: 0px;
 }
