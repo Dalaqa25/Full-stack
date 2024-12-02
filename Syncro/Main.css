@@ -4,7 +4,6 @@ body
     padding: 0;
     background-color: #f5f3f4;
     font-family: "Parkinsans", sans-serif;
-    overflow: hidden;
     transition: all 0.3s;
 }
 
@@ -171,6 +170,32 @@ body
 .profilePgae
 {
     display: none;
+}
+
+.profileInnerSection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+.overReview
+{
+    width: 35%;
+    height: 80vh;
+    background-color: #ffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.infoBox
+{
+    width: 60%;
+    height: 80vh;
+    background-color: #ffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width:1024px)
