@@ -5,6 +5,7 @@ body
     background-color: #f5f3f4;
     font-family: "Parkinsans", sans-serif;
     overflow: hidden;
+    transition: all 0.3s;
 }
 
 .main
@@ -122,7 +123,6 @@ body
     font-size: larger;
     display: flex;
     text-align: center;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
@@ -131,6 +131,7 @@ body
 .welcomePage h1
 {
     font-size: 4rem;
+    transition: all 0.3s;
 }
 
 .welcomePage p
@@ -142,6 +143,7 @@ body
 .welcomePage img
 {
     width: 40%;
+    transition: all 0.3s;
 }
 
 .colorful-text
@@ -156,4 +158,84 @@ body
     position: absolute;
     width: 100%;
     top: 0px;
+}
+
+.giorgi2
+{
+    position: fixed;
+    bottom: 0; /* Aligns the wave to the bottom */
+    left: 0; /* Aligns the wave to the left */
+    width: 100%;
+}
+
+.profilePgae
+{
+    display: none;
+}
+
+@media (max-width:1024px)
+{
+    .welcomePage h1
+    {
+        font-size: 3.3rem;
+    }
+
+    .welcomePage img
+    {
+        width: 60%;
+    }
+}
+
+@media (max-width:768px)
+{
+    .welcomePage h1
+    {
+        font-size: 2.7rem;
+    }
+    .welcomePage img
+    {
+        width: 70%;
+    }
+}
+
+@media (max-width:640px)
+{
+    .main
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .welcomePage h1
+    {
+        font-size: 2.1rem;
+    }
+    .nav-bar
+    {
+        display: flex;
+        flex-direction: row;
+        height: 10vh;
+    }
+    .nav-barSec1
+    {
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
+
+@media (max-width:475px)
+{
+    .welcomePage img
+    {
+        width: 80%;
+    }
+    .welcomePage h1
+    {
+        font-size: 1.9rem;
+    }
+    .welcomePage p
+    {
+        font-size: 1rem;
+    }
+
 }
