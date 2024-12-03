@@ -183,6 +183,7 @@ body
 .overReview
 {
     width: 35%;
+    min-width: 250px;
     height: 80vh;
     background-color: #ffff;
     border-radius: 20px;
@@ -191,6 +192,7 @@ body
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    text-align: center;
 }
 
 
@@ -198,12 +200,17 @@ body
 {
     width: 50%;
     max-width: 500px;
-    height: 30vh;
+    height: 250px;
     display:flex;
     align-items: center;
     border: 2px solid #eeee;
     border-radius: 10px;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+.profilePicture img
+{
+    max-width: 500px;
 }
 
 .infoBox
