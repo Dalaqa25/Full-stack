@@ -4,16 +4,3 @@ const projectBtn = document.getElementById("folderIcon");
 const contentPage = document.getElementById("contentPage");
 const welcomePage = document.getElementById("welcomePage");
 const profilePgae = document.getElementById("profilePgae");
-
-homeBtn.addEventListener("click", () => {
-    
-})
-
-profileBtn.addEventListener("click", () => {    
-    welcomePage.style.display = "none";
-    profilePgae.style.display = "block";
-});
-
-projectBtn.addEventListener("click", () => {
-    contentPage.style.backgroundColor = "red";
-});

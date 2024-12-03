@@ -644,6 +644,12 @@ dialog::backdrop
     border: 2px solid #7731d8;
 }
 
+.email-dialog a
+{
+    color: #ffff;
+    text-decoration: none;
+}
+
 .email-filed button
 {
     padding: 10px 0px;
