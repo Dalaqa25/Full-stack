@@ -6,7 +6,7 @@ const welcomePage = document.getElementById("welcomePage");
 const profilePgae = document.getElementById("profilePgae");
 
 homeBtn.addEventListener("click", () => {
-    contentPage.style.backgroundColor = "green";
+    
 })
 
 profileBtn.addEventListener("click", () => {    
