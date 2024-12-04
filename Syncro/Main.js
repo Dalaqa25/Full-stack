@@ -8,6 +8,5 @@ const profilePage = document.getElementById("profilePage");
 
 profileBtn.addEventListener("click", () => {
     profilePage.style.display = "block";
-    welcomePage.style.display = "none";
-    contentPage.style.background = "none";
+    welcomePage.style.display = "none";    
 })
