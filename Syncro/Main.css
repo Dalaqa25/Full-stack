@@ -30,6 +30,7 @@ body
     transition: all 0.3s;
 }
 
+
 .nav-bar
 {
     background:linear-gradient(45deg,#6D1EB7, #17BEE3);
@@ -166,6 +167,55 @@ body
 {
     width: 100%;
     height: 100%;
+}
+
+.navbarMobile
+{
+    position: absolute;
+    background-color: #af2dff;
+    border-radius: 8px;
+    display: none;
+    transition: all 0.3s;
+    left: 5px;
+}
+
+#closeBtn
+{
+    display: none;
+}
+
+.navbarMobile-InnerSection
+{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.navbarMobile p
+{
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    font-size: small;
+}
+
+.navbarMobile img
+{
+    margin: 0;
+    padding: 0;
+    width: 2rem;
+}
+
+.navbarMobile ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #6f1ee1;
+    width: 4rem;
+    gap: 1.5rem;
 }
 
 @media (max-width:1024px)
