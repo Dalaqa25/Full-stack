@@ -26,6 +26,8 @@ body
     background: url('./background.svg') no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
+    position: relative;
+    transition: all 0.3s;
 }
 
 .nav-bar
@@ -98,28 +100,6 @@ body
 
 /* main section */
 
-.accaountHeader
-{
-    display: flex;
-    gap: 0.5rem;
-    justify-content: end;
-    background:linear-gradient(45deg, #17BEE3, #6D1EB7);
-    padding: 0px 30px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.accaountHeader p
-{
-    color: #ffff;
-    transition: all 0.2s;
-    cursor: pointer;
-}
-
-.accaountHeader img
-{
-    width: 2rem;
-}
-
 .welcomePage
 {
     font-size: larger;
@@ -127,7 +107,6 @@ body
     text-align: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
 }
 
 .welcomePage h1
@@ -148,6 +127,7 @@ body
     transition: all 0.3s;
 }
 
+
 .colorful-text
 {
     background-image: linear-gradient(45deg, #ff7a18, #af2dff, #18d8ff);
@@ -162,11 +142,25 @@ body
     top: 0px;
 }
 
-.profilePgae
+
+.header
 {
-    display: none;
     width: 100%;
-    height: 90vh;
+    background: transparent;
+    display: none;
+}
+
+.headerInnerSection
+{
+    padding: 0.5rem;
+}
+
+.headerInnerSection img
+{
+    background-color: #6f1ee1;
+    padding: 0.5rem;
+    width: 1.5rem;
+    border-radius: 8px;
 }
 
 @media (max-width:1024px)
@@ -196,42 +190,20 @@ body
 
 @media (max-width:640px)
 {
-    .main
-    {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .welcomePage h1
-    {
-        font-size: 2.1rem;
-    }
     .nav-bar
     {
-        display: flex;
-        flex-direction: row;
-        height: 10vh;
+        display: none;
     }
-    .nav-barSec1
+    .home
     {
-        display: flex;
-        flex-direction: row;
-        
+        width: 100%;
+        background-color: #ffff;
+        height: 100vh;
+        border-radius: 0px;
+        box-shadow: none;
     }
-}
-
-@media (max-width:475px)
-{
-    .welcomePage img
+    .header
     {
-        width: 80%;
+        display: block;
     }
-    .welcomePage h1
-    {
-        font-size: 1.9rem;
-    }
-    .welcomePage p
-    {
-        font-size: 1rem;
-    }
-
 }
