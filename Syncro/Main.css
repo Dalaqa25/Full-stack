@@ -58,13 +58,13 @@ body
     width: 5vh;
     border-radius: 10px;
     padding: 1vh;
-    transition: all 0.3s;
+    transition: all 0.2s;
     padding: 0px;
 }
 
 .nav-bar img:hover
 {
-    background-color: #6f1ee1;
+    background-color: #18d8ff;
     cursor: pointer;
     scale: 1.1;
     padding: 3px;
