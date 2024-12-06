@@ -183,8 +183,36 @@ body
     border-radius: 7px;
     background-color: #ffff;
     max-width: 1150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vh;
 }
 
+.profileBoxHeader
+{
+    width: 90%;
+    max-width: 900px;
+    height: 32%;
+    background-color: black;
+}
+
+.profileBoxMiddle
+{
+    width: 90%;
+    max-width: 900px;
+    height: 32%;
+    background-color: red;
+}
+
+.profileBoxFooter
+{
+    width: 90%;
+    max-width: 900px;
+    height: 32%;
+    background-color: blue;
+}
 
 .navbarMobile
 {
