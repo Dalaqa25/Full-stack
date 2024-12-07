@@ -9,12 +9,14 @@ const profileIcon = document.querySelector(".profileIcon");
 profileIcon.addEventListener("click", () => {
     welcomePage.style.display = "none";
     profilePage.style.display = "block";
+    contentPage.style.background = "#fff"
 });
 
 const profileIconMobile = document.getElementById("profileIconMobile");
 profileIconMobile.addEventListener("click", () => {
     welcomePage.style.display = "none";
     profilePage.style.display = "block";
+    contentPage.style.background = "#fff"
 });
 
 menuBtn.addEventListener("click", () => 
