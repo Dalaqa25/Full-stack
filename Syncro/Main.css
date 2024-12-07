@@ -196,6 +196,32 @@ body
     max-width: 900px;
     height: 32%;
     background-color: black;
+    display: flex;
+}
+
+.profileImg
+{
+    width: 50%;
+    height: 100%;
+    background-color: #6D1EB7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImg img
+{
+    width: 90%;
+    max-width: 250px;
+    height: 80%;
+    border-radius: 20%;
+}
+
+.overReview
+{
+    width: 50%;
+    height: 100%;
+    background-color: #6D1EB7;
 }
 
 .profileBoxMiddle
