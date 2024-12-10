@@ -247,6 +247,7 @@ p
     padding: 20px 0px 10px 0px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .overReviewPicture
@@ -266,6 +267,20 @@ p
 {
     width: 100px;
     border-radius: 50%;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 13px;
+    border-bottom: 2px solid #edeeef;
+}
+
+.info p
+{
+    padding: 0px 0px 10px 0px;
 }
 
 @media (max-width:1666px)
