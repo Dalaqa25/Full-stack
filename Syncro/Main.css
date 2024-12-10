@@ -30,6 +30,17 @@ body
     transition: all 0.3s;
 }
 
+h3
+{
+    margin: 0;
+    padding: 0;
+}
+
+p
+{
+    margin: 0;
+    padding: 0;
+}
 
 .nav-bar
 {
@@ -216,6 +227,45 @@ body
     background-color: #6f1ee1;
     width: 4rem;
     gap: 1.5rem;
+}
+
+.profilePageInner
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overReview
+{
+    border: 2px solid #edeeef;
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.overReviewPicture
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    border-bottom: 2px solid #edeeef;
+    padding: 12px;
+    width: 90%;
+}
+
+.overReviewPicture img
+{
+    width: 100px;
+    border-radius: 50%;
 }
 
 @media (max-width:1666px)
