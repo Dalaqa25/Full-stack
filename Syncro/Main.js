@@ -26,6 +26,18 @@ menuBtn.addEventListener("click", () =>
     closeBtn.style.display = "block";
 });
 
+const homeBtn = document.getElementById("homeIcon");
+const homePage = document.getElementById("homePage");
+document.addEventListener("click", (event) => {
+    if (event.target === homeBtn)
+    {
+        welcomePage.style.display = "none";
+        homePage.style.display = "block";
+        contentPage.style.background = "#fff"
+        console.log("home page");
+    }
+})
+
 closeBtn.addEventListener("click", () => 
 {
     navbarMobile.style.display = "none";
