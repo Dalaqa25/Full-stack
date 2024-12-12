@@ -25,9 +25,9 @@ body
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
     background: url('./background.svg') no-repeat center center fixed;
     background-size: cover;
-    overflow: hidden;
     position: relative;
     transition: all 0.3s;
+    overflow-y: hidden;
 }
 
 h3
@@ -370,6 +370,7 @@ p
 .homePageContent
 {
     width: 96%;
+    overflow-y: auto;
 }
 
 .homePageHeader
@@ -459,6 +460,39 @@ p
     color: #ffff;
     font-size: larger;
     border-radius: 13px;
+}
+
+.projectArea
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.recentProjcts
+{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.box
+{
+    width: 15%;
+    background-color: #edeeef;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    display: flex;
+    transition: all 0.3s;
+}
+
+.box:hover
+{
+    background-color: #d9d9d9;
+} 
+
+.box img
+{
+    width: 100px;
 }
 
 @keyframes ring-bell {
