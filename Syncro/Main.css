@@ -375,11 +375,11 @@ p
 .homePageHeader
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     gap: 20px;
     width: 100%;
-    padding: 10px 0px;
+    padding: 15px 0px;
     position: sticky;
     top: 0;
 }
@@ -387,18 +387,27 @@ p
 .homePageSearch
 {
     position: relative;
+    background-color: #eff3fc;
+    border-radius: 10px;
 }
 
 .homePageSearch input
 {
-    width: 150%;
+    width: 100%;
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 2px solid #edeeef;
+    border: 2px solid #ffff;
     border-radius: 7px;
     font-size: medium;
     outline: none;
+    transition: all 0.2s;
+}
+
+.homePageSearch input:hover
+{
+    scale: 1.04;
+    padding-left: 50px;
 }
 
 .homePageSearch img
@@ -442,6 +451,7 @@ p
     width: 100%;
     height: 30vh;
     display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
