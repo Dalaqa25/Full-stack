@@ -33,6 +33,7 @@ document.addEventListener("click", (event) => {
     {
         welcomePage.style.display = "none";
         homePage.style.display = "block";
+        profilePage.style.display = "none";
         contentPage.style.background = "#fff"
         console.log("home page");
     }
