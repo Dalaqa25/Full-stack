@@ -479,6 +479,7 @@ p
     display: flex;
     gap: 20px;
     padding: 10px;
+    overflow-x: auto;
 }
 
 .projectContainer
@@ -530,6 +531,30 @@ p
 .popleInProject img
 {
     width: 18px;
+}
+
+.plus
+{
+    margin-top: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(5, 2, 2, 0.1);
+    border-radius: 59%;
+    display: flex;
+    transition: all 0.3s;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.plus:hover
+{
+    scale: 1.05;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.plus img
+{
+    width: 70px;
 }
 
 @keyframes ring-bell {
