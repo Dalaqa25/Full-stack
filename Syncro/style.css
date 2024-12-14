@@ -607,7 +607,7 @@ dialog::backdrop
 
 .email-dialog
 {
-    width: 400px;
+    width: 150px;
     background-color: #ffff;
     border: none;
     border-radius: 10px;
@@ -637,6 +637,7 @@ dialog::backdrop
     box-sizing: border-box;
     outline: none;
     transition: all 0.2s;
+    max-width: 290px;
 }
 
 .email-filed input:focus
@@ -644,10 +645,10 @@ dialog::backdrop
     border: 2px solid #7731d8;
 }
 
-.email-dialog a
+a
 {
-    color: #ffff;
     text-decoration: none;
+    color: #ffff;
 }
 
 .email-filed button
@@ -662,6 +663,7 @@ dialog::backdrop
     font-size: medium;
     font-weight: 500;
     color: #ffff;
+    max-width: 150px;
 }
 .email-filed button:hover
 {

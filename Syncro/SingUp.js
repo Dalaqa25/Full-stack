@@ -7,6 +7,7 @@ const SingUpBusiness = document.getElementById("Sing-Up-Business");
 const reloadBtn1 = document.getElementById("reload-button1");
 const reloadBtn2 = document.getElementById("reload-button2");
 const mobileSignUp = document.getElementById("mobile-signUp");
+const reloadBtnMobile = document.getElementById("reload-buttonMobile");
 
 const mouseoverHandler = (event) => {
     if (event.target === freelace) {
@@ -93,5 +94,9 @@ reloadBtn1.addEventListener("click", () => {
 })
 
 reloadBtn2.addEventListener("click", () => {
+  location.reload();
+})
+
+reloadBtnMobile.addEventListener("click", () => {
   location.reload();
 })
