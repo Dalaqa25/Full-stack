@@ -42,7 +42,6 @@ body
 .DF4in
 {
     padding: 15px 10px 0px 10px;
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -55,6 +54,39 @@ body
     background-color: #f3f3f5;
     border: none;
     border-radius: 20px;
+    outline: none;
+}
+
+.popleList
+{
+    background-color: #f3f3f5;
+    height: 79vh ;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.person
+{
+    margin: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.person:hover
+{
+    background-color: #f8efff;
+}
+
+.person img
+{
+    width: 35px;
 }
 
 .DFMessages
