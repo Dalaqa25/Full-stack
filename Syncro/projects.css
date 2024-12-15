@@ -98,3 +98,44 @@ body
 {
     width: 26%;
 }
+
+.DF3in
+{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.messageInput
+{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.messageInput input
+{
+    font-size: medium;
+    padding: 10px;
+    width: 70%;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: #f3f3f5;
+}
+
+.messageInput img
+{
+    width: 28px;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.messageInput img:hover
+{
+    background-color: #f3f3f5;
+}
